@@ -1,12 +1,12 @@
 :root {
-  --paper: #f6f4ef;
-  --paper-deep: #ece8df;
-  --ink: #202923;
-  --muted: #68716a;
-  --green: #263d32;
-  --green-dark: #1d3028;
-  --lime: #d1d9b5;
-  --line: rgba(32, 41, 35, .17);
+  --paper: #ffffff;
+  --paper-deep: #f4f4f4;
+  --ink: #484848;
+  --muted: #696969;
+  --green: #e83243;
+  --green-dark: #484848;
+  --lime: #f7c7cb;
+  --line: rgba(72, 72, 72, .18);
   --serif: Georgia, "Times New Roman", serif;
   --sans: "DM Sans", sans-serif;
   --display: "Manrope", sans-serif;
@@ -224,3 +224,27 @@ h1 em, h2 em { color: #71805e; font-family: var(--serif); font-weight: 400; lett
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
+
+
+/* Jesus Film Project-inspired brand palette: red, charcoal, and white. */
+:root { color-scheme: light; }
+.site-header { background: rgba(255,255,255,.95); border-bottom-color: rgba(72,72,72,.12); }
+.wordmark-mark { border-color: var(--green); color: var(--green); }
+.site-nav > a:not(.nav-cta):hover, .text-link:hover { color: #c91f31; }
+.nav-cta, .button-dark { background: #e83243; color: #fff; }
+.nav-cta:hover, .button-dark:hover { background: #c91f31; }
+.hero h1 em, h2 em, .signature { color: #e83243; }
+.eyebrow, .hero-note p, .signature-caption, .ministry-number, .partner-option-no, .story-note-label { color: #686868; }
+.intro-band { background: #e83243; color: #fff; }
+.eyebrow.light { color: #fff; }
+.intro-aside { color: rgba(255,255,255,.86); }
+.ministry-section, .stories-section { background: #f3f3f3; }
+.training-section { background: #484848; }
+.contact-section { background: #f4f4f4; }
+.contact-intro, .contact-label, .contact-edit-note { color: #686868; }
+.row-link:hover { background: #e83243; }
+.partner-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; }
+.partner-give-link { display: inline-flex; gap: 10px; margin-top: 10px; color: #d92739; font-size: 11px; font-weight: 700; border-bottom: 1px solid rgba(232,50,67,.4); padding-bottom: 3px; }
+.partner-give-link:hover { color: #a91525; }
+.button-light { background: #fff; color: #484848; }
+@media (max-width: 680px) { .partner-actions { align-items: flex-start; flex-direction: column; gap: 16px; } }

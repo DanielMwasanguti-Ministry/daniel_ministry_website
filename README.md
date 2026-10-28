@@ -31,7 +31,7 @@ No build step or framework is required.
 
 ## Before publishing — important edits
 
-- Replace `YOUR_EMAIL@example.com` in `index.html` with your preferred public email address.
+- Public contact email: `daniel.mwasanguti@lmtanzania.org`.
 - Add genuine, high-quality photographs in `src/image/` using the exact filenames above. Use photos you have permission to publish.
 - Replace the sample Jesus Film story with a verified testimony and get consent before sharing names, faces, or sensitive details.
 - Verify the ministry impact numbers, time period, and what each number means before publishing.
@@ -45,4 +45,4 @@ This is a standalone HTML/CSS/JS website package, not a Google Sites import file
 
 ## Design direction
 
-Warm off-white background, forest green, muted sage, restrained typography, generous spacing, fine rules, editorial layouts, minimal cards, accessible navigation, and mobile responsiveness.
+Jesus Film Project-inspired red, charcoal, and white palette; restrained typography, generous spacing, fine rules, editorial layouts, minimal cards, accessible navigation, and mobile responsiveness.
