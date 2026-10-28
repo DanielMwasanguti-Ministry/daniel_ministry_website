@@ -266,3 +266,7 @@ h1 em, h2 em { color: #71805e; font-family: var(--serif); font-weight: 400; lett
 .whatsapp-button { margin-top: 26px; width: fit-content; min-width: 225px; }
 .contact-whatsapp-number { margin: 12px 0 0; color: #484848; font-size: 11px; letter-spacing: .03em; }
 .partner-actions { row-gap: 14px; }
+
+/* Keep the Explore the ministry button text-only; suppress any inherited decorative arrow. */
+.hero-actions > a.button-dark::after, .hero-actions > a.button-dark span { content: none !important; display: none !important; }
+.hero-actions > a.button-dark { justify-content: center; gap: 0; }
