@@ -46,3 +46,12 @@ This is a standalone HTML/CSS/JS website package, not a Google Sites import file
 ## Design direction
 
 Jesus Film Project-inspired red, charcoal, and white palette; restrained typography, generous spacing, fine rules, editorial layouts, minimal cards, accessible navigation, and mobile responsiveness.
+
+
+Field photo assets used on the published website:
+- `hero-ministry.jpg` — beach outreach with microphone
+- `about-daniel.jpg` — portrait
+- `story-jesus-film.jpg` — guitar and beach outreach
+- `church-training.jpg` — church/community discussion
+- `church-resource-distribution.jpg` — church community with ministry resources
+- `church-leaders.jpg` — leaders and community members after resource sharing
