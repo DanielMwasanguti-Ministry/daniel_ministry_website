@@ -260,3 +260,9 @@ h1 em, h2 em { color: #71805e; font-family: var(--serif); font-weight: 400; lett
 
 /* The statistics section has been removed; keep the story section flowing naturally. */
 .stories-section { margin-top: 0; }
+
+
+/* Direct WhatsApp contact */
+.whatsapp-button { margin-top: 26px; width: fit-content; min-width: 225px; }
+.contact-whatsapp-number { margin: 12px 0 0; color: #484848; font-size: 11px; letter-spacing: .03em; }
+.partner-actions { row-gap: 14px; }
