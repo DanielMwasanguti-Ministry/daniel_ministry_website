@@ -270,3 +270,12 @@ h1 em, h2 em { color: #71805e; font-family: var(--serif); font-weight: 400; lett
 /* Keep the Explore the ministry button text-only; suppress any inherited decorative arrow. */
 .hero-actions > a.button-dark::after, .hero-actions > a.button-dark span { content: none !important; display: none !important; }
 .hero-actions > a.button-dark { justify-content: center; gap: 0; }
+
+
+/* Google Drive-powered ministry photo gallery */
+.gallery-section { background: #fff; }
+.drive-gallery-frame { width: 100%; min-height: 520px; overflow: hidden; border: 1px solid rgba(72,72,72,.16); background: #f7f7f7; }
+.drive-gallery-frame iframe { display: block; width: 100%; height: 620px; border: 0; background: #fff; }
+.gallery-help { margin: 17px 0 0; color: #686868; font-size: 12px; line-height: 1.8; }
+.gallery-help a { color: #d92739; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 680px) { .drive-gallery-frame { min-height: 430px; } .drive-gallery-frame iframe { height: 500px; } }
